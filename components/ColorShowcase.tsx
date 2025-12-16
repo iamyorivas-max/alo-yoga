@@ -27,6 +27,7 @@ const ColorShowcase: React.FC<ColorShowcaseProps> = ({ selectedColor, onColorCha
                 src={IMAGES.TOGGLE_WHITE.url} 
                 alt={IMAGES.TOGGLE_WHITE.alt} 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                referrerPolicy="no-referrer"
               />
             </div>
             <div className="mt-4 text-center">
@@ -45,6 +46,7 @@ const ColorShowcase: React.FC<ColorShowcaseProps> = ({ selectedColor, onColorCha
                 src={IMAGES.TOGGLE_BLACK.url} 
                 alt={IMAGES.TOGGLE_BLACK.alt} 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                referrerPolicy="no-referrer"
               />
             </div>
             <div className="mt-4 text-center">

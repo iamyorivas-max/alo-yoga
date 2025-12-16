@@ -20,6 +20,7 @@ const Hero: React.FC<HeroProps> = ({ selectedColor, onColorChange, onScrollToBuy
           src={activeImage.url} 
           alt={activeImage.alt} 
           className="w-full h-full object-cover transition-opacity duration-500 ease-in-out"
+          referrerPolicy="no-referrer"
         />
         {/* Mobile Scarcity Badge */}
         <div className="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 text-[10px] font-bold tracking-widest uppercase rounded-sm">
@@ -89,6 +90,7 @@ const Hero: React.FC<HeroProps> = ({ selectedColor, onColorChange, onScrollToBuy
           src={activeImage.url} 
           alt={activeImage.alt} 
           className="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-700 ease-in-out"
+          referrerPolicy="no-referrer"
         />
         <div className="absolute bottom-10 left-10 bg-white/90 backdrop-blur px-4 py-2 text-xs font-bold tracking-widest uppercase">
           Best Seller
