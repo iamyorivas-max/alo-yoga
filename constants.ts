@@ -7,27 +7,27 @@ import { ProductImage, Testimonial } from './types';
 export const IMAGES: Record<string, ProductImage> = {
   HERO_WHITE: {
     id: 1,
-    // Warm, golden hour lighting with white outfit - matches the "City/Park" vibe
-    url: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1800&auto=format&fit=crop', 
-    alt: 'LuxeMotion Jacket in Cloud White - Golden Hour Studio',
+    // Google Drive ID: 1nf40phbIjpUdnPc6tWneYlWAI093Srvg
+    url: 'https://drive.google.com/uc?export=view&id=1nf40phbIjpUdnPc6tWneYlWAI093Srvg', 
+    alt: 'LuxeMotion Jacket in Cloud White - Front View',
     role: 'hero'
   },
   HERO_BLACK: {
     id: 2,
-    // Cool, snowy mountain background with black outfit - matches the "Alpine" vibe
-    url: 'https://images.unsplash.com/photo-1544923246-77307dd65c74?q=80&w=1800&auto=format&fit=crop', 
-    alt: 'LuxeMotion Jacket in Midnight Black - Alpine Winter',
+    // Google Drive ID: 1vROl9EEY0WViewmLs_bfrCQWwfoPihd9
+    url: 'https://drive.google.com/uc?export=view&id=1vROl9EEY0WViewmLs_bfrCQWwfoPihd9', 
+    alt: 'LuxeMotion Jacket in Midnight Black - Front View',
     role: 'hero'
   },
   TOGGLE_WHITE: {
     id: 3,
-    url: 'https://images.unsplash.com/photo-1581044777550-4cfa60707966?q=80&w=800&auto=format&fit=crop', // Clean white detail
+    url: 'https://drive.google.com/uc?export=view&id=1nf40phbIjpUdnPc6tWneYlWAI093Srvg', // Reuse hero image for consistency
     alt: 'Cloud White Colorway',
     role: 'color-selection'
   },
   TOGGLE_BLACK: {
     id: 4,
-    url: 'https://images.unsplash.com/photo-1550614000-4b9519e02d48?q=80&w=800&auto=format&fit=crop', // Dark/Black detail
+    url: 'https://drive.google.com/uc?export=view&id=1vROl9EEY0WViewmLs_bfrCQWwfoPihd9', // Reuse hero image for consistency
     alt: 'Midnight Black Colorway',
     role: 'color-selection'
   },
